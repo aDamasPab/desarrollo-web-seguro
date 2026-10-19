@@ -1,12 +1,12 @@
 # HackersAnónimos.com
 
 ## Integrantes del equipo de desarrollo
-| Integrante               | Correo electrónico                 | GitHub Nickname |
-|--------------------------|------------------------------------|-----------------|
-| Alejandro Damas   | -      | aDamasPab       |
-| Integrante 2      | -   | -      |
-| Integrante 3 | - | -        |
-| Integrante 4     | -      | -       |
+| Integrante               | GitHub Nickname |
+|--------------------------|-----------------|
+| Alejandro Damas          | aDamasPab       |
+| Integrante 2             | -               |
+| Integrante 3             | -               |
+| Integrante 4             | -               |
 
 ## Aspectos Principales
 

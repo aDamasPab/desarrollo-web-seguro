@@ -88,7 +88,7 @@
 						{
 							"key": "imageFile",
 							"type": "file",
-							"src": "/path/to/file.jpg"
+							"src": "/path/to/image.jpg"
 						}
 					]
 				},
@@ -179,7 +179,7 @@
 						{
 							"key": "imageFile",
 							"type": "file",
-							"src": "/path/to/file.jpg"
+							"src": "/path/to/image.jpg"
 						}
 					]
 				},
@@ -246,7 +246,7 @@
 						{
 							"key": "imageFile",
 							"type": "file",
-							"src": "/path/to/file.jpg"
+							"src": "/path/to/image.jpg"
 						}
 					]
 				},
@@ -560,7 +560,7 @@
 						{
 							"key": "newImageFile",
 							"type": "file",
-							"src": "/path/to/file.jpg"
+							"src": "/path/to/image.jpg"
 						},
 						{
 							"key": "sections",
@@ -614,7 +614,7 @@
 						{
 							"key": "imageFile",
 							"type": "file",
-							"src": "/path/to/file.png"
+							"src": "/path/to/image.png"
 						}
 					]
 				},
@@ -687,7 +687,7 @@
 						{
 							"key": "newImage",
 							"type": "file",
-							"src": "/path/to/file.png"
+							"src": "/path/to/image.png"
 						}
 					]
 				},
@@ -722,7 +722,7 @@
 						{
 							"key": "imageFile",
 							"type": "file",
-							"src": "/path/to/file.jpg"
+							"src": "/path/to/image.jpg"
 						}
 					]
 				},
@@ -1114,7 +1114,7 @@
 						{
 							"key": "",
 							"type": "file",
-							"src": "/path/to/file.jpg"
+							"src": "/path/to/profile-image.jpg"
 						}
 					]
 				},
@@ -1149,7 +1149,7 @@
 						{
 							"key": "imageFile",
 							"type": "file",
-							"src": "/path/to/file.png"
+							"src": "/path/to/image.png"
 						}
 					]
 				},
@@ -1234,7 +1234,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/path/to/file.pdf"
+							"src": "/path/to/cv.pdf"
 						}
 					]
 				},

@@ -39,11 +39,11 @@ Las entidades con imágenes serán los **Post**, los **User** (foto de perfil) y
 Encargado principalmente de la clase Post, implementando cada aspecto referente a esta. Además, ha ido manipulando el resto de entidades en mayor o menor medida debido a la conexión de la entidad Post con todas las demás.
 
 #### 5 commits más significativos
-- [6b6c324](https://github.com/DWS-2025/project-grupo-1/commit/6b6c3240326a7ff946ae521ac0a7ae7a67f06393): se pasa a trabajar con DTOs en PostController y se implementan diversas funcionalidades.
-- [1022180](https://github.com/DWS-2025/project-grupo-1/commit/1022180acca0da6b279753f7569b58c67ce55879): se implementan controles de acceso para los diferentes endpoints relacionados con la entidad Post.
-- [05295e2](https://github.com/DWS-2025/project-grupo-1/commit/05295e2efc4ba535c787db215df805a88a1477d6): corrección de errores que impedían la correcta asignación de secciones y colaboradores a los Post. Además de la corrección de un error en el borrado de Post con comentarios.
-- [28dbd6b](https://github.com/DWS-2025/project-grupo-1/commit/28dbd6b50b4438b5af016ff4e7c2432e352ec82b): borrar un post suponía la aniquilación de las secciones a las que perteneciese.
-- [4abd873](https://github.com/DWS-2025/project-grupo-1/commit/4abd8730ee5409c113fdc6a59ed6d53dbd576dab): corrección de errores que provocaban fallos a la hora de visualizar las imágenes de los posts.
+- [e7c3c3a](../../commit/e7c3c3a0f7d43a66a46f15ebb6e6c4024de1dd49): se pasa a trabajar con DTOs en PostController y se implementan diversas funcionalidades.
+- [eba8e97](../../commit/eba8e978b83eab5070388a522bceabdc181a15d8): se implementan controles de acceso para los diferentes endpoints relacionados con la entidad Post.
+- [72cdb19](../../commit/72cdb1955baca8726f6ceca19f0e985d2297f1c8): corrección de errores que impedían la correcta asignación de secciones y colaboradores a los Post. Además de la corrección de un error en el borrado de Post con comentarios.
+- [035379e](../../commit/035379e481b6c77a4de12fdbcfb80397a2f6d54e): borrar un post suponía la aniquilación de las secciones a las que perteneciese.
+- [223527e](../../commit/223527eeca5ca64663c6e19e4a99788522138061): corrección de errores que provocaban fallos a la hora de visualizar las imágenes de los posts.
 
 #### 5 ficheros en los que más ha participado
 - PostService.java
@@ -56,11 +56,11 @@ Encargado principalmente de la clase Post, implementando cada aspecto referente 
 Encargada principalmente de la clase Section, implementando cada aspecto referente a esta. Además, ha ido aportando al resto de clases.
 
 #### 5 commits más significativos
-- [a2e647e](https://github.com/DWS-2025/project-grupo-1/commit/a2e647e484bcc8488691687a1e7ed37b3ab54007): Todas las entradas de los formularios sanitizadas.
-- [b451183](https://github.com/DWS-2025/project-grupo-1/commit/b4511839b35c825199d79a65aed4a9c990bfd35d): Añadido el panel de administrador para que pueda ver todos los usuarios, solo el administrador podrá acceder a esta página.
-- [ce467a1](https://github.com/DWS-2025/project-grupo-1/commit/ce467a10b8f21ef96a40e4fe3f083c64ce69dd10): Implementación de JWT y Configuración Detallada de Roles en Spring Security. 
-- [0c12300](https://github.com/DWS-2025/project-grupo-1/commit/0c1230081c4b10d19d47b58353dc487fe2f3033b): Implementación de texto enriquecido y securizado en el frontend.
-- [78ac530](https://github.com/DWS-2025/project-grupo-1/commit/78ac530723c9456de044ef6581cabc0e0d14234a): Implementación de la consulta dinámica.
+- [12d61dc](../../commit/12d61dc229210cf07ef03a5c0e7e28b92effc78d): Todas las entradas de los formularios sanitizadas.
+- [ad7e0e9](../../commit/ad7e0e99543ebef640f33f946ac2d0dbe184dff8): Añadido el panel de administrador para que pueda ver todos los usuarios, solo el administrador podrá acceder a esta página.
+- [5d72aba](../../commit/5d72aba7de426f03491859cb5da8599710760734): Implementación de JWT y Configuración Detallada de Roles en Spring Security. 
+- [06882f6](../../commit/06882f6448b729de9fd44d62d24082024e5cddaf): Implementación de texto enriquecido y securizado en el frontend.
+- [83d692a](../../commit/83d692ad929e22c2ee66ccccdbcd94f4f20e824c): Implementación de la consulta dinámica.
 
 #### 5 ficheros en los que más ha participado
 - SectionService.java
@@ -73,11 +73,11 @@ Encargada principalmente de la clase Section, implementando cada aspecto referen
 Encargado principalmente de la clase Comment, implementando cada aspecto referente a esta como a las entidades relacionadas. Además, ha ido aportando al resto de clases.
 
 #### 5 commits más significativos
-- [6802ca47](https://github.com/DWS-2025/project-grupo-1/commit/6802ca47c5e80803acd4a22095f4bcbc2e92e0cd): Implementada el control de acceso para los comentarios
-- [e9184a36](https://github.com/DWS-2025/project-grupo-1/commit/e9184a36ef6f2b2ba3de3347e45def28f7ee6ca9): Implementada la funcionalidad de texto enriquecido
-- [e5540c9](https://github.com/DWS-2025/project-grupo-1/commit/e5540c923d7f6603b0185426d5a91001098aa8e8): Implementado el inicio de sesión de la aplicación
-- [7a53165](https://github.com/DWS-2025/project-grupo-1/commit/7a53165b47cb4a7660fb11a6439ab3605322fe62): Implementada la subida de archivos
-- [2efbb25](https://github.com/DWS-2025/project-grupo-1/commit/2efbb25469aa3212d95e1a769e18819d8aeecb5d): Implementación del header dinámico para la aplicación
+- [6ba1ac0](../../commit/6ba1ac04e05523885bd6fe34acf70790259d6338): Implementada el control de acceso para los comentarios
+- [708e858](../../commit/708e8589e90af190b4855108e99fba7acafaf025): Implementada la funcionalidad de texto enriquecido
+- [6b24d1d](../../commit/6b24d1d1a5afc362106f901c7a04b48b29f44585): Implementado el inicio de sesión de la aplicación
+- [dbbdf91](../../commit/dbbdf91cd1d8a4bc15d5c842a2a59d678454e459): Implementada la subida de archivos
+- [f6c1344](../../commit/f6c1344cf5010164b66988f9187f13664b0e499a): Implementación del header dinámico para la aplicación
 
 #### 5 ficheros en los que más ha participado
 - commentService.java
@@ -91,11 +91,11 @@ Encargado principalmente de la clase User, debida a su alta cantidad de funciona
 También ha aportado en cuestiones de seguridad, como control de acceso, content security policy y control de entradas del usuario.
 
 #### 5 commits más significativos
-- [3c12948]https://github.com/DWS-2025/project-grupo-1/commit/3c12948f76501d5fde04c2ff83641dd11c3ef842 (Implementación del errorHander para errores en API)
-- [9b26371] (https://github.com/DWS-2025/project-grupo-1/commit/9b2637129626c22d19344769d00bab41b1ec7b4e) contro de acceso usuario api.
-- [2c357e8](https://github.com/DWS-2025/project-grupo-1/commit/2c357e8056b61d70eb1c4b71abd09d45c78b01e1) funciones de borrar cv en web y apim y toda la funcionalidad de cv en api
-- [f7e13ff](https://github.com/DWS-2025/project-grupo-1/commit/f7e13ffa22a007e8f71cd7b643449bb8f6984ae9) Usuario Invitado ya funciona correctamente para ver /home /login y /register
-- [e49b0cc](https://github.com/DWS-2025/project-grupo-1/commit/e49b0cce0cd40c6d21fb3d3bdfa38b6bac449ce5) ya funciona register, asignando el rol y hasheando la contraseña.
+- [7eff891](../../commit/7eff891f5d04a6adfcb32261cd30023c71aa0198) (Implementación del errorHander para errores en API)
+- [fa5acad](../../commit/fa5acad69e4b3c502274f09bdbbff62c48eb69fe) contro de acceso usuario api.
+- [ce79af4](../../commit/ce79af427aea53aa72cc1005954b657454f188c6) funciones de borrar cv en web y apim y toda la funcionalidad de cv en api
+- [8f774c4](../../commit/8f774c4a47b89a92675c5bbf259358ec7fe379c7) Usuario Invitado ya funciona correctamente para ver /home /login y /register
+- [8d47ff6](../../commit/8d47ff62b318f32d598d804c7d74dd7d8eeb16f0) ya funciona register, asignando el rol y hasheando la contraseña.
 
 #### 5 ficheros en los que más ha participado
 - UserController
